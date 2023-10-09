@@ -1,8 +1,8 @@
 <?php
-$server       = "localhost";
-$user         = "baharii1_fc";
-$password     = "face12_fc1";
-$database     = "baharii1_fc";
+$server       = "ep-snowy-pine-71687776-pooler.us-east-1.postgres.vercel-storage.com";
+$user         = "default";
+$password     = "Pt5IYczg3dkR";
+$database     = "verceldb";
 
 $dbconnect = mysqli_connect($server, $user, $password, $database);
 
